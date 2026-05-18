@@ -27,7 +27,7 @@ A collection of research papers, books, and resources on **Agentic Artificial In
 
 ---
 
-## ⚙ Agent Optimization & Prompting
+##  Agent Optimization & Prompting
 
 ### GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning
 **Authors:** Lakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab  
