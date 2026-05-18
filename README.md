@@ -1,13 +1,10 @@
-# 🤖 Agentic AI — Curated Paper & Resource List
+# Agentic AI — Resource List
 
-A curated collection of research papers, books, and resources on **Agentic Artificial Intelligence**, covering architectures, benchmarks, optimization, and real-world applications of LLM-based agents.
-
-> **Maintained by:** [your-name]
-> **Last updated:** May 2026
+A collection of research papers, books, and resources on **Agentic Artificial Intelligence**, covering architectures, benchmarks, optimization, and real-world applications of LLM-based agents.
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [Survey & Taxonomy](#-survey--taxonomy)
 - [Agent Optimization & Prompting](#-agent-optimization--prompting)
@@ -19,7 +16,7 @@ A curated collection of research papers, books, and resources on **Agentic Artif
 
 ---
 
-## 🗺️ Survey & Taxonomy
+##  Survey & Taxonomy
 
 ### Agentic Artificial Intelligence (AI): Architectures, Taxonomies, and Evaluation of Large Language Model Agents
 **Authors:** Arunkumar V, Gangadharan G.R., Rajkumar Buyya  
@@ -30,7 +27,7 @@ A curated collection of research papers, books, and resources on **Agentic Artif
 
 ---
 
-## ⚙️ Agent Optimization & Prompting
+## ⚙ Agent Optimization & Prompting
 
 ### GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning
 **Authors:** Lakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab  
@@ -41,7 +38,7 @@ A curated collection of research papers, books, and resources on **Agentic Artif
 
 ---
 
-## 🧠 Planning & Tool Use
+##  Planning & Tool Use
 
 ### In-the-Flow Agentic System Optimization for Effective Planning and Tool Use
 **Authors:** Zhuofeng Li, Haoxiang Zhang, Seungju Han, Sheng Liu, Jianwen Xie, Yu Zhang, Yejin Choi, James Y Zou, Pan Lu  
@@ -58,7 +55,7 @@ A curated collection of research papers, books, and resources on **Agentic Artif
 
 ---
 
-## 📊 Benchmarks & Evaluation
+##  Benchmarks & Evaluation
 
 ### τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains
 **Authors:** Shunyu Yao, Noah Shinn, Pedram Razavi, Karthik Narasimhan  
@@ -68,7 +65,7 @@ A curated collection of research papers, books, and resources on **Agentic Artif
 
 ---
 
-## 🔐 Security & Compliance in Software Services
+##  Security & Compliance in Software Services
 
 ### Detection of Data Exposures in Software Services Using a Large Language Model
 **Authors:** S. S. Yau, S. Goswami, V. Shrivastav, G. Sannidhi  
@@ -88,7 +85,7 @@ A curated collection of research papers, books, and resources on **Agentic Artif
 
 ---
 
-## 📚 Books
+##  Books
 
 ### Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems
 **Author:** Antonio Gullí  
@@ -99,7 +96,7 @@ A curated collection of research papers, books, and resources on **Agentic Artif
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To add a paper:
 
@@ -119,7 +116,7 @@ Contributions are welcome! To add a paper:
 
 ---
 
-## 📜 License
+##  License
 
 This reading list is released under [CC0 1.0 Universal](LICENSE) — free to use, share, and adapt.
 
