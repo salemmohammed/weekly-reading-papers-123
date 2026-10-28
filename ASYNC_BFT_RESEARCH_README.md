@@ -1,8 +1,10 @@
-# Awesome Asynchronous BFT Consensus 📚
+# Awesome Asynchronous BFT Consensus 
 
-> A curated, chronological reading list of **asynchronous Byzantine fault-tolerant (BFT) consensus**, major surveys, and experimental evaluation papers. **Updated: October 2026.**
+> A reading list of **asynchronous Byzantine fault-tolerant (BFT) consensus**, major surveys, and experimental evaluation papers. **
 
-**Scope.** Emphasis is on permissioned asynchronous Byzantine agreement and atomic broadcast, with DAG protocols and hybrid/partially synchronous designs included for comparison. This is a **selected bibliography**, not an exhaustive index of every paper.
+**Scope.** The list focuses on permissioned asynchronous Byzantine agreement and atomic broadcast protocols, emphasizing protocols that guarantee safety and probabilistic liveness without assuming bounded network delays.
+
+The review covers foundational and modern approaches, including randomized Byzantine agreement, asynchronous common subset (ACS), reliable broadcast, threshold cryptography, and asynchronous Byzantine atomic broadcast.
 
 ## Contents
 
@@ -22,7 +24,6 @@
 |---|---|---|
 | **Foundational practical asynchronous BFT** | [HoneyBadgerBFT (CCS 2016)](https://doi.org/10.1145/2976749.2978399) | Introduced a practical asynchronous atomic broadcast design. |
 | **High-throughput asynchronous BFT** | [Dumbo-NG (CCS 2022)](https://doi.org/10.1145/3548606.3559379) | Concurrent dissemination and ordering; throughput/latency tradeoffs. |
-| **DAG-based architecture** | [Narwhal and Tusk (EuroSys 2022)](https://arxiv.org/abs/2105.11827) | Separates data dissemination from consensus ordering. |
 | **Adaptation to faults and networks** | [TockOwl / TockOwl+ (USENIX Security 2025)](https://www.usenix.org/conference/usenixsecurity25/presentation/li-minghang) | Adaptive performance under crash faults and different network conditions. |
 | **Focused survey** | [A Review of Asynchronous Byzantine Consensus Protocols (Sensors 2024)](https://doi.org/10.3390/s24247927) | ACS- versus DAG-based taxonomy. |
 | **Broad, high-profile BFT survey** | [Reaching Consensus in the Byzantine Empire (ACM CSUR 2024)](https://doi.org/10.1145/3636553) | Algorithm-level comparison, complexity and protocol figures. |
@@ -32,7 +33,6 @@
 - **Asynchronous:** No fixed upper bound on message delays is required by the network model. Termination of randomized asynchronous consensus can be probabilistic.
 - **Partially synchronous:** Liveness relies on eventual timing assumptions. **PBFT and HotStuff are not fully asynchronous liveness baselines.**
 - **ACS:** Asynchronous Common Subset, used in HoneyBadger-style atomic broadcast.
-- **DAG:** Directed acyclic graph of proposals/certificates or events; DAG membership and ordering can be separated.
 - **Hybrid / fast-path:** A protocol can use a fast mode under favorable conditions and fall back to an asynchronous mode. Check the exact guarantees of each component.
 
 ## Research timeline
@@ -46,8 +46,6 @@
 2018       BEAT
     |
 2020       Dumbo
-    |
-2021       DAG-Rider
     |
 2022       Speeding Dumbo / DispersedLedger / Dumbo-NG
            Narwhal & Tusk / Bullshark / Bolt-Dumbo Transformer
@@ -92,20 +90,6 @@
 | 2026 | [TD: Faster Asynchronous BFT Protocol Minimizing Throughput–Latency Tension](https://www.mdpi.com/1999-5903/18/9/460) | Future Internet | Throughput–latency optimization. |
 
 > **Warning:** A paper's claimed speedup is based on its own experimental settings. Do not combine throughput/latency figures from different papers as if they came from the same testbed.
-
-## DAG-based and hybrid research
-
-Not all papers here prove liveness under the same *fully asynchronous* model; classify network assumptions individually before making comparisons.
-
-| Year | Paper | Venue / type | Main idea |
-|---|---|---|---|
-| 2021 | [DAG-Rider: All You Need Is DAG](https://arxiv.org/abs/2102.08325) | ACM PODC | DAG-based asynchronous atomic broadcast. |
-| 2022 | [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/abs/2105.11827) | ACM EuroSys | Separate mempool dissemination from ordering. |
-| 2022 | [Bullshark: DAG BFT Protocols Made Practical](https://arxiv.org/abs/2201.05677) | ACM CCS | Efficient DAG-based ordering, including an asynchronous design. |
-| 2023 | *Cordial Miners* | Research paper | DAG-based ordering. |
-| 2023 | *Shoal* | Research work | Leader performance for DAG designs. |
-| 2024 | [Mysticeti: Reaching the Limits of Latency with Uncertified DAGs](https://arxiv.org/abs/2310.14821) | Research publication | Low-latency DAG design; review exact synchrony assumptions. |
-| 2024 | *Mahi-Mahi* | Research work | DAG ordering refinements. |
 
 ## High-quality surveys
 
